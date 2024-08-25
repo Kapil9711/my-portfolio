@@ -1306,7 +1306,7 @@ Error generating stack: `+a.message+`
     margin-top: 6px;
   }
   display: none;
-`;function mte(){const t=Q.useRef(null);return Q.useEffect(()=>{const e=()=>{const n=document.getElementById("about"),{top:r}=n.getBoundingClientRect();Number(r)<50?(t.current.style.display="flex",t.current.style.opacity=1):t.current.style.display="none"};window.addEventListener("scroll",e)},[]),$.jsxs($.Fragment,{children:[$.jsx(CF,{}),$.jsx(ZC,{}),$.jsx(Oz,{}),$.jsx(lL,{}),$.jsxs("main",{children:[$.jsx(vz,{}),$.jsx(zF,{}),$.jsx(jF,{}),$.jsx(Hee,{}),$.jsx(lte,{})]}),$.jsx(fte,{}),$.jsx(fL,{}),$.jsx(hte,{ref:t,children:$.jsx(Um,{to:"home",activeClass:"active",spy:!0,smooth:!0,offset:-10,duration:1e3,children:$.jsx(dte,{className:"icon"})})}),$.jsx(sL,{})]})}const pte=V6`
+`;function mte(){const t=Q.useRef(null);return Q.useEffect(()=>{const e=()=>{const n=document.getElementById("about"),{top:r}=n.getBoundingClientRect();Number(r)<50&&Number(window.innerWidth)>932?(t.current.style.display="flex",t.current.style.opacity=1):t.current.style.display="none"};return window.addEventListener("scroll",e),()=>window.removeEventListener("scroll",e)},[]),$.jsxs($.Fragment,{children:[$.jsx(CF,{}),$.jsx(ZC,{}),$.jsx(Oz,{}),$.jsx(lL,{}),$.jsxs("main",{children:[$.jsx(vz,{}),$.jsx(zF,{}),$.jsx(jF,{}),$.jsx(Hee,{}),$.jsx(lte,{})]}),$.jsx(fte,{}),$.jsx(fL,{}),$.jsx(hte,{ref:t,children:$.jsx(Um,{to:"home",activeClass:"active",spy:!0,smooth:!0,offset:-10,duration:1e3,children:$.jsx(dte,{className:"icon"})})}),$.jsx(sL,{})]})}const pte=V6`
 
 :root{
   --clr-primary-1:hsl(0, 88%, 68%);
